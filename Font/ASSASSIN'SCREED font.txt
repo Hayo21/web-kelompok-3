@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link ke segalanya -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- link font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@0,600;0,700;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;1,100&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
+    <!-- end link ke segalanya -->
+    <!-- link icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- end link icon -->
+    <title>Landing Page | Kelompok</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <section class="navigation">
+      <nav>
+        <div class="">
+          <a href="http://"><img src="Logo.png" alt="Logo" /></a>
+        </div>
+        <div id="menu-icon" class="menu-icon">
+          <i class="ri-list-unordered"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#animated-cards">GALLERY</a></li>
+          <li><a href="#contact-us">CONTACT</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- end navigation -->
+
+    <!-- background Parallax -->
+    <section id="home">
+      <header id="test">
+        <h1>&ASSASSINS <span style="color: rgb(163, 11, 11)">CREED?</span></h1>
+        <p>UNIVERSE</p>
+      </header>
+    </section>
+    <!-- end background Parallax -->
+
+    <!-- Penjelasan Assassin Creed -->
+    <section id="about">
+      <div class="about-content">
+        <div class="text" id="texaja">
+          <h1>SEJARAH</h1>
+          <p>
+            Brotherhood Of Assassin dengan Bayek sebagai salah satu assassin creed pertama di dunia. Brotherhood of assassin tercipta karena tekanan dari penguasa mesir kuno, sehingga memaksa Bayek dan beberapa orang lainnya membentuk
+            kelompok perlawanan atas tindakan Firaun yang semena - mena. anggota Brotherhood terdiri dari Altair Ibn-La'Ahad, Ezio, Connor Kenway, Edward Kenway, Arno Dorian, Evie dan jacob, Bayek, Kasandra, Evior dan Desmond
+          </p>
+        </div>
+        <div class="image">
+          <img src="./image/about.jpg" alt="Assassin Creed universe" />
+        </div>
+      </div>
+    </section>
+    <!-- End Penjelasan Assassin Creed -->
+
+    <!-- Kartu  -->
+    <section id="animated-cards">
+      <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+        <img src="./image/Ezio card1.png" alt="Card 1" />
+        <div class="description">
+          <a
+            href="https://www.bing.com/ck/a?!&&p=a10815b8121fd04cJmltdHM9MTcwMjE2NjQwMCZpZ3VpZD0xYmRhNmM0MS02YjJmLTY1NWYtMWFlNi03ZmU4NmE3OTY0MGUmaW5zaWQ9NTIwMA&ptn=3&ver=2&hsh=3&fclid=1bda6c41-6b2f-655f-1ae6-7fe86a79640e&psq=assassin%27s+creed+ezio+collection&u=a1aHR0cHM6Ly93d3cudWJpc29mdC5jb20vZW4tdXMvZ2FtZS9hc3Nhc3NpbnMtY3JlZWQvdGhlLWV6aW8tY29sbGVjdGlvbg&ntb=1"
+            style="color: #f8f9f8; text-decoration: none"
+            class="button"
+          >
+            Dalam Game assassin ini menjelaskan tentang perjalanan ezio ini adalah trilogy epic dari ezio pemuda yang terpukul oleh tragedi menjadi mentor Assassin yang bijkasana. game ini menawarkan pengalaman mendalam dalam dunia
+            konspirasi dan pertarungan rahasia melawan Templar
+          </a>
+        </div>
+      </div>
+
+      <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+        <img src="./image/syndicate card2.png" alt="Card 2" />
+        <div class="description">
+          <a
+            href="https://www.bing.com/ck/a?!&&p=0a6522616f58b651JmltdHM9MTcwMjE2NjQwMCZpZ3VpZD0xYmRhNmM0MS02YjJmLTY1NWYtMWFlNi03ZmU4NmE3OTY0MGUmaW5zaWQ9NTIxMw&ptn=3&ver=2&hsh=3&fclid=1bda6c41-6b2f-655f-1ae6-7fe86a79640e&psq=assassin%27s+creed+syndicate&u=a1aHR0cHM6Ly93d3cudWJpc29mdC5jb20vZW4tdXMvZ2FtZS9hc3Nhc3NpbnMtY3JlZWQvc3luZGljYXRl&ntb=1"
+            style="color: #f8f9f8; text-decoration: none"
+            class="button"
+          >
+            di game ini bercerita ke era revokusi london.petualangan saudara kembar evie dan jacob, game ini menawarkan misi menarik dalam membentuk brotherhood untuk melawan templar dalam bayangan serta persaingan industri dan kelas
+            social.
+          </a>
+        </div>
+      </div>
+
+      <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this) ">
+        <img src="./image/mirage card3 bener.jpg" alt="Card 3" />
+        <div class="description">
+          <a
+            href="https://www.bing.com/ck/a?!&&p=fabe044011d4aa94JmltdHM9MTcwMjE2NjQwMCZpZ3VpZD0xYmRhNmM0MS02YjJmLTY1NWYtMWFlNi03ZmU4NmE3OTY0MGUmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=1bda6c41-6b2f-655f-1ae6-7fe86a79640e&psq=assassin%27s+creed+mirage&u=a1aHR0cHM6Ly93d3cudWJpc29mdC5jb20vZW4tdXMvZ2FtZS9hc3Nhc3NpbnMtY3JlZWQvbWlyYWdl&ntb=1"
+            style="color: #f8f9f8; text-decoration: none"
+            class="button"
+          >
+            di game ini Basim sebagai Karater utama adalah seorang pencuri jalanan yang cerdik basim hidup di abad ke-sembilan di daerah baghdad game ini akan mencertikan misi menyelidiki Baghdad
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Kartu  -->
+
+    <!-- kontak  -->
+    <section id="contact-us">
+      <div class="contact-form">
+        <h2>CONT?CT U$</h2>
+        <form id="contact-form">
+          <label for="name">N?ME</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">EM?IL</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">ME$$AGE:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="button" onclick="sendMessage()" class="button">$END ME$$AGE</button>
+        </form>
+        <div id="notification"></div>
+      </div>
+    </section>
+
+    <!-- End kontak  -->
+
+    <!-- komentar -->
+    <section class="comment-section">
+      <div class="container">
+        <h2 style="font-size: 30px">KOLOM KOMENT?R</h2>
+
+        <div class="comment-form">
+          <label for="name">N?M?</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="comment">KOMENT?R</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+
+          <button onclick="submitComment()">K&R&M KOMENT?R</button>
+        </div>
+
+        <div class="comments-list">
+          <!-- Komentar akan ditampilkan di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- End komentar -->
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+  </body>
+</html>
+
+/* untuk font  */
+@font-face {
+  font-family: "Assassin$";
+  src: url(/Font/cred.ttf);
+}
+/* untuk font end */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Assassin$", "Poppins", sans-serif, Times, serif;
+  scroll-behavior: smooth;
+}
+/* untuk font end */
+
+/* navbar start*/
+nav {
+  background-color: rgba(17, 20, 20, 0.277);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+nav div img {
+  width: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 20px;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Assassin$", "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 2px solid rgba(143, 14, 14, 0);
+}
+
+nav ul li a:hover {
+  color: rgb(143, 14, 14);
+  border-bottom: 2px solid rgb(143, 14, 14);
+}
+
+nav:hover {
+  background-color: rgba(8, 9, 9, 0.816);
+}
+
+.menu-icon {
+  color: rgb(227, 233, 233);
+  font-size: 24px;
+  display: none;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  #test {
+    background-attachment: scroll;
+  }
+}
+/* navbar end*/
+
+/* Parallax bg */
+
+#home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; /* Mengatasi konten yang keluar dari container */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#test {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../image/hayuk.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+#test::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Warna overlay dengan alpha (transparansi) */
+  z-index: -1;
+}
+
+#test h1,
+#test p {
+  transform: translateZ(0);
+  animation: moveDown 3s ease-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: rgb(217, 213, 213);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+@keyframes moveDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* End parallax bg */
+
+/* about */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../image/y-so-serious-white.png);
+  text-align: justify;
+}
+
+#about h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.text p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Add a hover effect for the image */
+.image:hover img {
+  transform: scale(1.1);
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse; /* Stack items vertically and reverse the order on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .text,
+  .image {
+    flex: none; /* Reset flex values for better stacking */
+  }
+}
+/* end about */
+
+/* kartu */
+#animated-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-image: url(../image/oriental-tiles.png);
+  width: auto;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .description {
+  transform: translateY(0);
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%; /* Make cards full width on smaller screens */
+    max-width: none; /* Remove max-width for flexibility */
+  }
+}
+
+/* End kartu */
+
+/* kontak */
+#contact-us {
+  background-image: url(../image/y-so-serious-white.png);
+  padding: 40px;
+  text-align: center;
+}
+
+#contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#contact-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  #contact-us {
+    padding: 20px;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+}
+/* End kontak */
+
+/* komentar */
+.container {
+  margin: auto;
+  padding: 20px;
+  background-color: #3498db;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.comment-section {
+}
+
+.comment-form {
+  text-align: center;
+  padding: 10px;
+}
+
+.comment-section h2 {
+  text-align: center;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Assassin$", Times, serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+
+.comment-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.comment-form button:hover {
+  background-color: #47bb4c;
+}
+
+.comments-list {
+  /* Gaya komentar akan ditampilkan di sini */
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.comment {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* End komentar */
+
+betulkan bagian comment-section agar backgrounya betul
